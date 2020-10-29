@@ -1,11 +1,11 @@
 {
-  "name": "GooseModCSSBundler",
+  "name": "GooseCSSBundler",
   "version": "1.0.0",
-  "description": "",
+  "description": "A custom-made CSS bundler which turns external image URLs to data URIs and puts imports into the CSS file.",
   "main": "index.js",
   "scripts": {
   },
-  "author": "",
+  "author": "GooseMod",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0"
