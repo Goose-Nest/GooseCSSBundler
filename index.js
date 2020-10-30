@@ -78,6 +78,7 @@ css = await replaceAsync(css, imgRegex, async (_, url) => {
 
 console.log();
 
+css = css.replace(/\/\*.*\*\//g, '');
 css = css.replace(/\n/g, '');
 
 /*css = css.replace(nonQuoteRegex, (_, url) => {
